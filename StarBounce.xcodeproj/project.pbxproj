@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01D15DC41A8A60240046F649 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D15DC31A8A60240046F649 /* AppDelegate.swift */; };
+		01D15DC91A8A60240046F649 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01D15DC71A8A60240046F649 /* Main.storyboard */; };
+		01D15DCB1A8A60240046F649 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01D15DCA1A8A60240046F649 /* Images.xcassets */; };
+		01D15DCE1A8A60240046F649 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01D15DCC1A8A60240046F649 /* LaunchScreen.xib */; };
+		01D15DDA1A8A60240046F649 /* StarBounceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D15DD91A8A60240046F649 /* StarBounceTests.swift */; };
+		01D15DE71A8A60620046F649 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D15DE31A8A60620046F649 /* ViewController.swift */; };
+		01D15DE81A8A60620046F649 /* StarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D15DE41A8A60620046F649 /* StarButton.swift */; };
+		01D15DE91A8A60620046F649 /* Paths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D15DE51A8A60620046F649 /* Paths.swift */; };
+		01D15DEA1A8A60620046F649 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D15DE61A8A60620046F649 /* Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01D15DD41A8A60240046F649 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01D15DB61A8A60240046F649 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01D15DBD1A8A60240046F649;
+			remoteInfo = StarBounce;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01D15DBE1A8A60240046F649 /* StarBounce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarBounce.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01D15DC21A8A60240046F649 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01D15DC31A8A60240046F649 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		01D15DC81A8A60240046F649 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		01D15DCA1A8A60240046F649 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		01D15DCD1A8A60240046F649 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		01D15DD31A8A60240046F649 /* StarBounceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarBounceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01D15DD81A8A60240046F649 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01D15DD91A8A60240046F649 /* StarBounceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarBounceTests.swift; sourceTree = "<group>"; };
+		01D15DE31A8A60620046F649 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		01D15DE41A8A60620046F649 /* StarButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarButton.swift; sourceTree = "<group>"; };
+		01D15DE51A8A60620046F649 /* Paths.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Paths.swift; sourceTree = "<group>"; };
+		01D15DE61A8A60620046F649 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01D15DBB1A8A60240046F649 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01D15DD01A8A60240046F649 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01D15DB51A8A60240046F649 = {
+			isa = PBXGroup;
+			children = (
+				01D15DC01A8A60240046F649 /* StarBounce */,
+				01D15DD61A8A60240046F649 /* StarBounceTests */,
+				01D15DBF1A8A60240046F649 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01D15DBF1A8A60240046F649 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01D15DBE1A8A60240046F649 /* StarBounce.app */,
+				01D15DD31A8A60240046F649 /* StarBounceTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01D15DC01A8A60240046F649 /* StarBounce */ = {
+			isa = PBXGroup;
+			children = (
+				01D15DC31A8A60240046F649 /* AppDelegate.swift */,
+				01D15DE31A8A60620046F649 /* ViewController.swift */,
+				01D15DE41A8A60620046F649 /* StarButton.swift */,
+				01D15DE51A8A60620046F649 /* Paths.swift */,
+				01D15DE61A8A60620046F649 /* Extensions.swift */,
+				01D15DC71A8A60240046F649 /* Main.storyboard */,
+				01D15DCA1A8A60240046F649 /* Images.xcassets */,
+				01D15DCC1A8A60240046F649 /* LaunchScreen.xib */,
+				01D15DC11A8A60240046F649 /* Supporting Files */,
+			);
+			path = StarBounce;
+			sourceTree = "<group>";
+		};
+		01D15DC11A8A60240046F649 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				01D15DC21A8A60240046F649 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		01D15DD61A8A60240046F649 /* StarBounceTests */ = {
+			isa = PBXGroup;
+			children = (
+				01D15DD91A8A60240046F649 /* StarBounceTests.swift */,
+				01D15DD71A8A60240046F649 /* Supporting Files */,
+			);
+			path = StarBounceTests;
+			sourceTree = "<group>";
+		};
+		01D15DD71A8A60240046F649 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				01D15DD81A8A60240046F649 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01D15DBD1A8A60240046F649 /* StarBounce */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01D15DDD1A8A60240046F649 /* Build configuration list for PBXNativeTarget "StarBounce" */;
+			buildPhases = (
+				01D15DBA1A8A60240046F649 /* Sources */,
+				01D15DBB1A8A60240046F649 /* Frameworks */,
+				01D15DBC1A8A60240046F649 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StarBounce;
+			productName = StarBounce;
+			productReference = 01D15DBE1A8A60240046F649 /* StarBounce.app */;
+			productType = "com.apple.product-type.application";
+		};
+		01D15DD21A8A60240046F649 /* StarBounceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01D15DE01A8A60240046F649 /* Build configuration list for PBXNativeTarget "StarBounceTests" */;
+			buildPhases = (
+				01D15DCF1A8A60240046F649 /* Sources */,
+				01D15DD01A8A60240046F649 /* Frameworks */,
+				01D15DD11A8A60240046F649 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01D15DD51A8A60240046F649 /* PBXTargetDependency */,
+			);
+			name = StarBounceTests;
+			productName = StarBounceTests;
+			productReference = 01D15DD31A8A60240046F649 /* StarBounceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01D15DB61A8A60240046F649 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Rafael Machado";
+				TargetAttributes = {
+					01D15DBD1A8A60240046F649 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					01D15DD21A8A60240046F649 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 01D15DBD1A8A60240046F649;
+					};
+				};
+			};
+			buildConfigurationList = 01D15DB91A8A60240046F649 /* Build configuration list for PBXProject "StarBounce" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01D15DB51A8A60240046F649;
+			productRefGroup = 01D15DBF1A8A60240046F649 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01D15DBD1A8A60240046F649 /* StarBounce */,
+				01D15DD21A8A60240046F649 /* StarBounceTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01D15DBC1A8A60240046F649 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01D15DC91A8A60240046F649 /* Main.storyboard in Resources */,
+				01D15DCE1A8A60240046F649 /* LaunchScreen.xib in Resources */,
+				01D15DCB1A8A60240046F649 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01D15DD11A8A60240046F649 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01D15DBA1A8A60240046F649 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01D15DEA1A8A60620046F649 /* Extensions.swift in Sources */,
+				01D15DE81A8A60620046F649 /* StarButton.swift in Sources */,
+				01D15DE71A8A60620046F649 /* ViewController.swift in Sources */,
+				01D15DE91A8A60620046F649 /* Paths.swift in Sources */,
+				01D15DC41A8A60240046F649 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01D15DCF1A8A60240046F649 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01D15DDA1A8A60240046F649 /* StarBounceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01D15DD51A8A60240046F649 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01D15DBD1A8A60240046F649 /* StarBounce */;
+			targetProxy = 01D15DD41A8A60240046F649 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		01D15DC71A8A60240046F649 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01D15DC81A8A60240046F649 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		01D15DCC1A8A60240046F649 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01D15DCD1A8A60240046F649 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01D15DDB1A8A60240046F649 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		01D15DDC1A8A60240046F649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01D15DDE1A8A60240046F649 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StarBounce/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		01D15DDF1A8A60240046F649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StarBounce/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		01D15DE11A8A60240046F649 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StarBounceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StarBounce.app/StarBounce";
+			};
+			name = Debug;
+		};
+		01D15DE21A8A60240046F649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StarBounceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StarBounce.app/StarBounce";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01D15DB91A8A60240046F649 /* Build configuration list for PBXProject "StarBounce" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01D15DDB1A8A60240046F649 /* Debug */,
+				01D15DDC1A8A60240046F649 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01D15DDD1A8A60240046F649 /* Build configuration list for PBXNativeTarget "StarBounce" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01D15DDE1A8A60240046F649 /* Debug */,
+				01D15DDF1A8A60240046F649 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		01D15DE01A8A60240046F649 /* Build configuration list for PBXNativeTarget "StarBounceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01D15DE11A8A60240046F649 /* Debug */,
+				01D15DE21A8A60240046F649 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01D15DB61A8A60240046F649 /* Project object */;
+}
