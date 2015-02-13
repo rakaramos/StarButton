@@ -2,7 +2,7 @@
 Star Bounce Animation by Joel Filipe
 ===========
 ## Article
-Coming soon!
+[Creating Custom Animated Buttons](https://swiftcast.tv/articles/creating-custom-animated-buttons)
 
 ## Demo
 Source of inspiration
