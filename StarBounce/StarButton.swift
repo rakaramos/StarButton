@@ -218,7 +218,7 @@ class StarButton: UIButton {
         fillRingShape.transform = CATransform3DIdentity
     }
     
-    override func animationDidStop(anim: CAAnimation!, finished flag: Bool) {
+    override func animationDidStop(anim: CAAnimation, finished flag: Bool) {
         if let key = anim.valueForKey(starKey) as? String {
             switch(key) {
             case (favoriteKey):
@@ -270,7 +270,7 @@ class StarButton: UIButton {
         CATransaction.commit()
     }
     
-    override func animationDidStart(anim: CAAnimation!) {
+    override func animationDidStart(anim: CAAnimation) {
         disableTouch()
     }
     

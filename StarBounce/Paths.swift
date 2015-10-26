@@ -11,7 +11,7 @@ import UIKit
 struct Paths {
    
     static var star: CGPath {
-        var star = UIBezierPath()
+        let star = UIBezierPath()
         star.moveToPoint(CGPointMake(112.79, 119))
         star.addCurveToPoint(CGPointMake(107.75, 122.6), controlPoint1: CGPointMake(113.41, 122.8), controlPoint2: CGPointMake(111.14, 124.42))
         star.addLineToPoint(CGPointMake(96.53, 116.58))
@@ -37,7 +37,7 @@ struct Paths {
     }
     
     static var swift: CGPath {
-        var swiftPath = UIBezierPath()
+        let swiftPath = UIBezierPath()
         swiftPath.moveToPoint(CGPointMake(376.2, 283.2))
         swiftPath.addCurveToPoint(CGPointMake(349.8, 238.4), controlPoint1: CGPointMake(367.4, 258.4), controlPoint2: CGPointMake(349.8, 238.4))
         swiftPath.addCurveToPoint(CGPointMake(236.5, 0), controlPoint1: CGPointMake(349.8, 238.4), controlPoint2: CGPointMake(399.7, 105.6))
