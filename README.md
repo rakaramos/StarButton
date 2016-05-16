@@ -1,8 +1,6 @@
-# StarButton
-Star Bounce Animation by Joel Filipe
-===========
+# Star Button
 ## Article
-[Creating Custom Animated Buttons](https://swiftcast.tv/articles/creating-custom-animated-buttons)
+[Creating Custom Animated Buttons](https://swift.unicorn.tv/articles/creating-custom-animated-buttons)
 
 ## Demo
 Source of inspiration
