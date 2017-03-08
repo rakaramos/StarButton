@@ -20,7 +20,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func favorite(sender: StarButton!) {
+    @IBAction func favorite(_ sender: StarButton!) {
         sender.isFavorite = !sender.isFavorite
     }
 }
