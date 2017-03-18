@@ -9,7 +9,7 @@ Source of inspiration
 ## Code result
 ![alt tag](http://ramosmachado.net/wp-content/uploads/2015/02/starbounce.gif)
 
-##A Swift bounce animation :)
+## A Swift bounce animation :)
 ![alt tag](http://ramosmachado.net/wp-content/uploads/2015/02/swift.gif)
 
 
